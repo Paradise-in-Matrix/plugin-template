@@ -2,5 +2,5 @@
  :name "Terminal Profiles"
  :description "Overrides the default profile popover with a terminal aesthetic."
  :version "1.0.0"
- :theme-url "https://raw.githubusercontent.com/Paradise-in-Matrix/plugin-template/refs/heads/main/dist/retro.css"
+ :theme-url "https://cdn.jsdelivr.net/gh/Paradise-in-Matrix/plugin-template@main/dist/retro.css"
  :external-scripts []}
