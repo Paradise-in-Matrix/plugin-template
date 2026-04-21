@@ -77,7 +77,6 @@ button.form-button:hover {
 ***** Worker
 
 #+begin_src clojurescript :tangle src/worker.cljs
-
 (worker/register :plugin-boot
                  (fn [_]
                    {:status :success}))
@@ -86,17 +85,16 @@ button.form-button:hover {
 
 ***** Manifest
 
-
 #+begin_src clojurescript :tangle manifest.edn
 
 {:id :terminal-profiles
  :name "Terminal Profiles"
  :description "Overrides the default profile popover with a terminal aesthetic."
  :version "1.0.0"
- :theme-url nil
+ :theme-url "https://raw.githubusercontent.com/Paradise-in-Matrix/plugin-template/refs/heads/main/dist/retro.css"
  :external-scripts []}
-#+end_src
 
+#+end_src
 
 
 
@@ -132,7 +130,10 @@ the client
 #+end_src
 
 
-Then run bb
+Then run nbb
+
+
+npx serve dist -C --cors
 
 
 
