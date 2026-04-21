@@ -1,0 +1,11 @@
+{
+    "name": "paradise-plugin",
+    "version": "1.0.0",
+    "description": "A custom plugin for Paradise",
+    "scripts": {
+        "build": "nbb build.cljs"
+    },
+    "devDependencies": {
+        "nbb": "^1.2.178"
+    }
+}
