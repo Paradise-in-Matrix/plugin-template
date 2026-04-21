@@ -135,7 +135,6 @@ the client
 Then run nbb
 
 
-npx serve dist -C --cors
 
 
 
