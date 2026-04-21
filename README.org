@@ -87,13 +87,16 @@ button.form-button:hover {
 
 ***** Manifest
 
+For the theme we use jsDelivr as Github provides the wrong content type to be
+useful for serving from their endpoint.
+
 #+begin_src clojurescript :tangle manifest.edn
 
 {:id :terminal-profiles
  :name "Terminal Profiles"
  :description "Overrides the default profile popover with a terminal aesthetic."
  :version "1.0.0"
- :theme-url "https://raw.githubusercontent.com/Paradise-in-Matrix/plugin-template/refs/heads/main/dist/retro.css"
+ :theme-url "https://cdn.jsdelivr.net/gh/Paradise-in-Matrix/plugin-template@main/dist/retro.css"
  :external-scripts []}
 
 #+end_src
