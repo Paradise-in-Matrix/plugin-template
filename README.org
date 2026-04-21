@@ -29,7 +29,7 @@ be easily done.
 
 #+begin_src clojurescript :tangle src/ui.cljs
 
-(defn profile-preview-content [{:keys [member]}]
+(defoverride profile-preview-content [{:keys [member]}]
   [:div {:style {:background "#000" :padding "16px" :border "1px solid #333"}}
    [:h3 {:style {:color "#0f0" :margin 0 :font-family "monospace"}}
     (str "> " (:display-name member))]
@@ -39,6 +39,8 @@ be easily done.
 (swap! client.state/!components assoc :profile-preview-content profile-preview-content)
 
 #+end_src
+
+
 
 
 #+begin_src css :tangle dist/retro.css
