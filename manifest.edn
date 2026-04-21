@@ -4,3 +4,10 @@
  :version "1.0.0"
  :theme-url nil
  :external-scripts []}
+
+{:id :terminal-profiles
+ :name "Terminal Profiles"
+ :description "Overrides the default profile popover with a terminal aesthetic."
+ :version "1.0.0"
+ :theme-url nil
+ :external-scripts []}
