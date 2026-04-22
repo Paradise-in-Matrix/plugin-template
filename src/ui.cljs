@@ -4,5 +4,3 @@
     (str "> " (:display-name member))]
    [:p {:style {:color "#555" :font-size "12px" :font-family "monospace"}}
     (:user-id member)]])
-
-(swap! client.state/!components assoc :profile-preview-content profile-preview-content)
